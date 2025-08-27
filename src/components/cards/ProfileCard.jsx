@@ -6,12 +6,12 @@ const ProfileCard = () => {
     <>
       <div className="fade-up-scroll card bg-base-100 max-w-md lg:w-md shadow-lg mx-auto lg:mx-2 p-6 border-2 border-accent">
           <figure>
-              <img src={profileImg} alt="Graduation Pic" className="rounded-xl max-h-[400px] w-full object-cover" />
+              <img src={profileImg} alt="Graduation Pic" className="max-h-[400px] w-full object-cover rounded-xl" />
           </figure>
           <div className="card-body items-left text-left px-0 text-content w-full">
             <div className="card-actions flex w-full p-auto">
               <div className="tooltip w-full flex flex-col" data-tip="For security and convenience, my resume is available on LinkedIn.">
-                <button className="btn btn-primary btn-wide gap-x-2 mx-auto">
+                <button className="btn btn-primary w-full gap-x-2 mx-auto">
                   <i className="bi bi-file-earmark-post"></i>
                   My Resume
                 </button>

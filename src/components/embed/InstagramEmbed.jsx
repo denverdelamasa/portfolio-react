@@ -41,7 +41,7 @@ const InstagramEmbed = ({ url, maxWidth = 500 }) => {
   return (
     <div className="my-8">
       {isLoading && (
-        <div className="card bg-base-300 border border-base-300 rounded-2xl w-full max-w-md mx-auto">
+        <div className="card bg-base-300 border border-base-300  w-full max-w-md mx-auto">
           <div className="animate-pulse flex flex-col p-6">
             <div className="flex items-center space-x-4 mb-4">
               <div className="rounded-full bg-base-200 h-12 w-12"></div>
@@ -50,7 +50,7 @@ const InstagramEmbed = ({ url, maxWidth = 500 }) => {
                 <div className="h-3 bg-base-200 rounded w-1/2"></div>
               </div>
             </div>
-            <div className="rounded-xl bg-base-200 h-80 w-full"></div>
+            <div className=" bg-base-200 h-80 w-full"></div>
             <div className="mt-4 space-y-2">
               <div className="h-4 bg-base-200 rounded w-full"></div>
               <div className="h-4 bg-base-200 rounded w-5/6"></div>
@@ -61,7 +61,7 @@ const InstagramEmbed = ({ url, maxWidth = 500 }) => {
 
       <div className={`${isLoading ? 'hidden' : 'block'}`}>
         <div className="flex justify-center">
-          <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow rounded-2xl overflow-hidden" style={{ maxWidth }}>
+          <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow  overflow-hidden" style={{ maxWidth }}>
             <blockquote
               ref={embedRef}
               className="instagram-media"

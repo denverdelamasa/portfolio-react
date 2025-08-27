@@ -13,7 +13,7 @@ const ProjectCards = () => {
                     <img 
                         src={freecodecamp} 
                         alt="DENR PENRO" 
-                        className="rounded-xl w-full h-auto object-cover max-h-[200px]"
+                        className=" w-full h-auto object-cover max-h-[200px]"
                     />
                 </figure>
                 <div className="flex flex-col gap-2 my-auto md:w-1/2 lg:w-3/5">
@@ -31,7 +31,7 @@ const ProjectCards = () => {
                         <img 
                             src={kodekloud} 
                             alt="DENR PENRO" 
-                            className="rounded-xl my-auto w-full h-auto object-cover max-h-[200px]"
+                            className=" my-auto w-full h-auto object-cover max-h-[200px]"
                         />
                     </figure>
                 <div className="flex flex-col gap-2 my-auto md:w-1/2 lg:w-3/5">
@@ -49,7 +49,7 @@ const ProjectCards = () => {
                         <img 
                             src={Operating} 
                             alt="DENR PENRO" 
-                            className="rounded-xl my-auto w-full h-auto object-cover max-h-[200px]"
+                            className=" my-auto w-full h-auto object-cover max-h-[200px]"
                         />
                     </figure>
                 <div className="flex flex-col gap-2 my-auto md:w-1/2 lg:w-3/5">
@@ -67,7 +67,7 @@ const ProjectCards = () => {
                         <img 
                             src={mernproject} 
                             alt="mern skeleton project" 
-                            className="rounded-xl my-auto w-full h-auto object-cover max-h-[200px]"
+                            className=" my-auto w-full h-auto object-cover max-h-[200px]"
                         />
                     </figure>
                 <div className="flex flex-col gap-2 my-auto md:w-1/2 lg:w-3/5">

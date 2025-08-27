@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <>
-      <div className="hero h-auto rounded-2xl fade-up-scroll">
+      <div className="hero h-auto  fade-up-scroll">
         <div className="max-w-full my-4">
           <h1 className="mb-5 text-5xl font-bold font-heading">Hellow! My name is Denver Dela Masa.</h1>
           <p className="mb-5 font-paragraph">

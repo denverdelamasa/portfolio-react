@@ -10,7 +10,7 @@ const MyQuote = () => {
   }, []);
 
   return (
-    <div className="relative w-full my-16 md:my-24 lg:my-32 rounded-2xl overflow-hidden min-h-[500px] flex items-center justify-center group border-2 border-accent">
+    <div className="relative w-full my-16 md:my-24 lg:my-32  overflow-hidden min-h-[500px] flex items-center justify-center group border-2 border-accent">
       {/* Background with parallax effect */}
       <div 
         className="absolute inset-0 w-full h-full transition-transform duration-700"

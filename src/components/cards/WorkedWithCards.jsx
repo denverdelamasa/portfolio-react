@@ -28,7 +28,7 @@ const ProjectCards = () => {
             </div>
             <div className="fade-up-scroll card bg-base-300 w-full md:w-md lg:w-xl max-w-lg shadow-xl">
                 <figure className="p-2">
-                <img src={Capstone_Project} alt="DENR PENRO" className="rounded-xl"/>
+                    <img src={Capstone_Project} alt="DENR PENRO" className="rounded-xl"/>
                 </figure>
                 <div className="card-body items-left text-left">
                     <h2 className="card-title">The Development of Paws'N Claws Community Hub</h2>

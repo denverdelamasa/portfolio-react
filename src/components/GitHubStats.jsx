@@ -157,14 +157,14 @@ export default function GitHubStats() {
         </div>
       </header>
       
-      <div className="w-[85vw] lg:w-fit xl-w-auto p-2 md:p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 bg-base-100 border-2 border-accent">
+      <div className="w-[85vw] lg:w-fit xl-w-auto p-2 md:p-6  shadow-md hover:shadow-xl transition-shadow duration-300 bg-base-100 border-2 border-accent">
         <div 
           ref={gridRef}
           className="relative overflow-auto" 
           style={{ minHeight: `${GRID_HEIGHT + MONTH_LABEL_HEIGHT + 24}px` }}
         >
           {loading && (
-            <div className="absolute inset-0 flex justify-center items-center bg-base-100/80 z-10 rounded-xl">
+            <div className="absolute inset-0 flex justify-center items-center bg-base-100/80 z-10 ">
               <span className="loading loading-spinner loading-md md:loading-lg text-primary"></span>
             </div>
           )}
@@ -204,7 +204,7 @@ export default function GitHubStats() {
                   {week.map((day, dayIndex) => (
                     <div
                       key={dayIndex}
-                      className={`rounded-[2px] transition-all duration-150 cursor-pointer hover:scale-110 border border-base-200 ${
+                      className={`transition-all duration-150 cursor-pointer hover:scale-110 border border-base-200 ${
                         loading ? "opacity-50" : ""
                       } ${selectedDate === day.date ? 'ring-2 ring-primary ring-offset-1' : ''}`}
                       onClick={() => isTouchDevice && handleSquareClick(day)}
@@ -241,12 +241,12 @@ export default function GitHubStats() {
         </div>
 
         <footer className="flex flex-col md:flex-row justify-between items-center mt-4 gap-3 text-xs">
-          <div className="flex items-center gap-2 bg-base-200/50 px-2 py-1 rounded-lg">
+          <div className="flex items-center gap-2 bg-base-200/50 px-2 py-1 ">
             <span className="text-content text-[10px] md:text-xs">Less</span>
             {[0, 1, 3, 5, 7].map((count) => (
               <div
                 key={count}
-                className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-[2px] border border-base-300"
+                className="w-2.5 h-2.5 md:w-3 md:h-3 border border-base-300"
                 style={{ 
                   backgroundColor: loading ? "var(--fallback-bc,oklch(var(--bc)/0.1))" : getColor(count),
                   opacity: count > 0 ? 0.9 + (count * 0.01) : 0.7

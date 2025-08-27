@@ -60,7 +60,7 @@ const ContactForm = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="fade-up-scroll bg-base-300 h-full rounded-xl p-6 shadow-md flex flex-col gap-4"
+        className="fade-up-scroll bg-base-300 h-full  p-6 shadow-md flex flex-col gap-4"
       >
         <input
           type="text"

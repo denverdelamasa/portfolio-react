@@ -12,7 +12,7 @@ const ExperiencesParallax = () => {
   }, []);
 
   return (
-    <div className="relative w-full my-4 md:my-8 lg:my-12 rounded-2xl overflow-hidden min-h-[300px] flex items-center justify-center group">
+    <div className="relative w-full my-4 md:my-8 lg:my-12  overflow-hidden min-h-[300px] flex items-center justify-center group">
       {/* Background with parallax effect */}
       <div 
         className="absolute inset-0 w-full h-full transition-transform duration-700"
