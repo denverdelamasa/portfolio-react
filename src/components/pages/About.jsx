@@ -36,7 +36,7 @@ const About = ({ setActivePage }) => {
                 I also have a creative side — I do art and design, mainly digital illustration. On top of that, 
                 I code too, focusing on front-end web development, which is why I built this portfolio.
               </p>
-              <Link to="/gallery">
+              <Link to="/gallery#Gallery">
                 <button className="btn btn-primary fade-up-scroll">
                   <i className="bi bi-collection"></i>
                   My Gallery

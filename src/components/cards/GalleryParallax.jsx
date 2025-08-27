@@ -29,7 +29,7 @@ const GalleryParallax = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-900/70 to-gray-900/90"></div>
       
       {/* Content */}
-      <div className={`relative z-10 p-8 text-center text-white transition-all duration-700 ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+      <div id="Gallery" className={`relative z-10 p-8 text-center text-white transition-all duration-700 ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
         <figure className="max-w-3xl mx-auto">
           <blockquote className="mx-auto mb-6">
             <div className="flex flex-row gap-x-4 my-auto justify-center items-center">
