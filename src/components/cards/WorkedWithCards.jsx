@@ -20,7 +20,7 @@ const ProjectCards = () => {
                     Did some Inventory management, Documentation of Preventive Maintenance Schedule (PMS).
                 </p>
                 <div className="justify-center card-actions">
-                    <Link className="btn btn-primary w-full" to="/experience#DENRInternship">
+                    <Link className="btn btn-primary w-full" to="/experiences#DENRInternship">
                         <i className="bi bi-box-arrow-in-up-right"></i>
                         Learn more
                     </Link>
@@ -39,7 +39,7 @@ const ProjectCards = () => {
                         Front-End design and development, and technical writing.
                     </p>
                     <div className="justify-center card-actions">
-                        <Link className="btn btn-primary w-full" to="/experience#PawsNClaws">
+                        <Link className="btn btn-primary w-full" to="/experiences#PawsNClaws">
                             <i className="bi bi-box-arrow-in-up-right"></i>
                             Learn more
                         </Link>
@@ -59,7 +59,7 @@ const ProjectCards = () => {
                         into a full application!
                     </p>
                     <div className="justify-center card-actions">
-                        <Link className="btn btn-primary w-full" to="/experience#mern-stack">
+                        <Link className="btn btn-primary w-full" to="/experiences#mern-stack">
                             <i className="bi bi-box-arrow-in-up-right"></i>
                             Learn more
                         </Link>
