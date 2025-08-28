@@ -42,9 +42,9 @@ const Navbar = ({ theme, setTheme }) => {
               </Link>
             </li>
             <li>
-              <Link to="/experience">
+              <Link to="/experiences">
                 <i className="bi bi-hdd-network" />
-                Experience
+                Experiences
               </Link>
             </li>
             <li>
@@ -90,9 +90,9 @@ const Navbar = ({ theme, setTheme }) => {
             </Link>
           </li>
           <li>
-            <Link to="/experience">
+            <Link to="/experiences">
               <i className="bi bi-hdd-network" />
-              Experience
+              Experiences
             </Link>
           </li>
           <li>

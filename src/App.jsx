@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Experience from './components/pages/Experience';
+import Experiences from './components/pages/Experiences';
 import Contact from './components/pages/Contact';
 import Gallery from './components/pages/Gallery';
 import ConsoleApps from './components/pages/ConsoleApps';
@@ -76,7 +76,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home themeName={theme} />} />
           <Route path="/about" element={<About themeName={theme} />} />
-          <Route path="/experience" element={<Experience themeName={theme} />} />
+          <Route path="/experiences" element={<Experiences themeName={theme} />} />
           <Route path="/contact" element={<Contact themeName={theme} />} />
           <Route path="/gallery" element={<Gallery themeName={theme} />} />
           <Route path="/console-app" element={<ConsoleApps themeName={theme} />} />

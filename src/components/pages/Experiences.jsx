@@ -28,10 +28,10 @@ const Experience = () => {
   return (
     <>
     <SEO 
-      title="Experience | Denver Dela Masa" 
-      description="Explore my professional experience in IT support, preventive maintenance, web development, and creative design. Learn how my skills and background can contribute to future projects." 
+      title="Experiences | Denver Dela Masa" 
+      description="Explore my professional experiences in IT support, web development, and creative design. Learn how my skills and background can contribute to future projects." 
     />
-      <section id="Experience" className="hero flex flex-col m-0 transition-all duration-300">
+      <section id="Experiences" className="hero flex flex-col m-0 transition-all duration-300">
         <ExperiencesParallax/>
         <div className="px-0 sm:px-4 md:px-18 lg:px-34">
           <PawsNClaws />
