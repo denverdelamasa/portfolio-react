@@ -36,7 +36,7 @@ const PaypalMeButton = ({ theme, onClick, icon }) => {
           setIsHovered(false);
           setShowTooltip(false);
         }}
-        className={`w-14 h-14  border-2 border-warning flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-105`}
+        className={`w-14 h-14 bg-base-300 border-2 border-warning flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-105`}
         style={{
           transform: isHovered ? 'scale(1.1)' : 'scale(1)',
           boxShadow: isHovered 

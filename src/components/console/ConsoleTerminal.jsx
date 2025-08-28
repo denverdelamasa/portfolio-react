@@ -253,7 +253,7 @@ const ConsoleTerminal = () => {
   }, [handleInput, printWelcomeMessage, prompt]);
 
   return (
-    <div className="bg-black border-2 border-green-500 text-gray-200 p-4 rounded-xl w-full max-w-7xl font-mono shadow-xl">
+    <div className="bg-black border-2 border-accent text-gray-200 p-4 rounded-xl w-full max-w-7xl font-mono shadow-xl">
       <div className="flex justify-between items-center mb-4">
         <div className="flex space-x-2 items-center">
           <div className="w-3 h-3 rounded-full bg-red-500"></div>
@@ -265,7 +265,7 @@ const ConsoleTerminal = () => {
         </div>
         {isLoading && (   
           <div className="flex items-center">
-            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-green-500 mr-2"></div>
+            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-accent mr-2"></div>
             <span className="text-xs text-gray-400">Loading Python...</span>
           </div>
         )}
@@ -273,7 +273,7 @@ const ConsoleTerminal = () => {
 
       <div 
         ref={terminalRef} 
-        className="h-[50rem] w-full rounded-lg overflow-hidden"
+        className="h-[50rem] w-full rounded-lg overflow-auto"
         onClick={() => termRef.current?.focus()}
       />
     </div>

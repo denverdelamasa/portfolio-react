@@ -20,6 +20,9 @@ const ConsoleApps = () => {
                   This dedicated page showcases my previous school projects originally developed in C and C#, 
                   which I have since recreated in Python.
               </p>
+              <p className="fade-up-scroll text-xs italic text-warning mx-auto my-2">
+                  "This page is optimized for desktop — please switch to a desktop for the best experience."
+              </p>
             </div>
             <div className="w-full h-full py-4 fade-up-scroll overflow-x-auto">
                 <ConsoleTerminal className="mx-auto"/>
