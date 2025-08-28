@@ -23,7 +23,7 @@ const Home = ({ themeName }) => {
                 </div>
 
                 <div className="w-full lg:max-w-3xl order-2 lg:order-1">
-                    <h1 className="text-6xl md:text-7xl lg:text-7xl font-[1000] fade-up-scroll">
+                    <h1 className="text-5xl md:text-7xl lg:text-7xl font-[1000] fade-up-scroll">
                         Illustrator. <br></br>
                         Web Dev. <br></br>
                         Tech Support.
