@@ -166,7 +166,7 @@ const ExperiencesAnimated = () => {
                 ></path>
                 <path d="M34 61L3 43V53.5751L34 72V61Z" fill="#0665B2"></path>
                 <path d="M58 54.5L60.5 53V56L58 57.5V54.5Z" fill="#FF715E"></path>
-                <path d="M63 51.5L65.5 50V53L63 54.5V51.5Z" fill="abyss"></path>
+                <path d="M63 51.5L65.5 50V53L63 54.5V51.5Z" fill="black"></path>
                 <path
                     id="strobe_color1"
                     d="M63 51.5L65.5 50V53L63 54.5V51.5Z"

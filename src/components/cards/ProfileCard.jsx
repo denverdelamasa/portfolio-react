@@ -6,7 +6,7 @@ const ProfileCard = () => {
     <>
       <div className="fade-up-scroll card bg-base-100 max-w-md lg:w-md shadow-lg mx-auto lg:mx-2 p-6 border-2 border-accent">
           <figure>
-              <img src={profileImg} alt="Graduation Pic" className="max-h-[400px] w-full object-cover rounded-xl" />
+              <img src={profileImg} alt="Graduation Pic" className="border-2 border-accent max-h-[400px] w-full object-cover rounded-xl" />
           </figure>
           <div className="card-body items-left text-left px-0 text-content w-full">
             <div className="card-actions flex w-full p-auto">

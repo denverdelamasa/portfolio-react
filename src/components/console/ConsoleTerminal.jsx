@@ -187,7 +187,7 @@ const ConsoleTerminal = () => {
   }, []);
 
   return (
-    <div className="bg-black text-gray-200 p-6 rounded-xl w-2xl sm:w-full max-w-10xl font-mono shadow-lg">
+    <div className="bg-black border-2 border-accent text-gray-200 p-6 rounded-xl w-2xl sm:w-full max-w-10xl font-mono shadow-lg">
       <div className="flex justify-between items-center align-middle mb-4">
         <div className="flex space-x-2">
           <div className="w-3 h-3 rounded-full bg-red-500 m-1 p-auto"></div>

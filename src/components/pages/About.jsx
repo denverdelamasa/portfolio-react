@@ -54,7 +54,7 @@ const About = ({ setActivePage }) => {
                     as a drummer.
                   </p>
                   <div className="my-12 flex-wrap flex text-content">
-                    <img src={sampleart} alt="sample art from my insta" className='w-full h-auto max-h-[400px] object-cover' />
+                    <img src={sampleart} alt="sample art from my insta" className='border-2 border-accent w-full h-auto max-h-[400px] object-cover' />
                     <p className="text-xs text-accent"></p>
                   </div>
                   <p className="mb-5 font-paragraph fade-up-scroll">

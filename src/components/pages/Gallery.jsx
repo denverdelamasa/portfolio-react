@@ -71,7 +71,7 @@ const Collage = () => {
                   <img
                     src={item.src}
                     alt={item.alt}
-                    className="w-full h-auto object-cover  bg-gray-100"
+                    className="w-full h-auto object-cover border-2 border-accent bg-gray-100"
                     loading="lazy"
                     width="100%"
                     height="auto"
