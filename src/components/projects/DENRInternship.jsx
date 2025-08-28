@@ -23,10 +23,10 @@ const PawsNClaws = () => {
             </p>
             <div className="max-w-full">
               <figure className="px-5 flex flex-col gap-2">
-                <img src={img1} alt="image 1" className="border-2 border-accent shadow-xl w-full max-h-[250px] transition-all hover:max-h-[1000px] object-cover" />
-                <img src={img2} alt="image 2" className="border-2 border-accent shadow-xl w-full max-h-[250px] transition-all hover:max-h-[1000px] object-cover" />
+                <img src={img1} alt="image 1" className="border-2 border-accent shadow-xl w-full max-h-[250px] transition-all hover:max-h-[500px] object-cover" />
+                <img src={img2} alt="image 2" className="border-2 border-accent shadow-xl w-full max-h-[250px] transition-all hover:max-h-[500px] object-cover" />
               </figure>
-              <div className="text-xs mb-8 mt-1 items-center text-center text-accent">
+              <div className="text-xs mb-8 mt-1 items-center text-center text-info">
                 <p>Some pictures of the things I fixed/Maintained</p>
               </div>
             </div>

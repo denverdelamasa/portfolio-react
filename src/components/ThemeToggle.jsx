@@ -2,7 +2,7 @@ import { memo } from "react";
 
 const ThemeToggler = ({ theme, setTheme }) => {
   const toggleTheme = () => {
-    setTheme(theme === "winter" ? "black" : "winter");
+    setTheme(theme === "wireframe" ? "black" : "wireframe");
   };
 
   return (

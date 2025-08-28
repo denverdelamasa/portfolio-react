@@ -20,7 +20,7 @@ import PaypalMeButton from './PaypalMe';
 
 function App() {
   // THEME STATE LIFTED HERE
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "winter");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "wireframe");
 
   // Apply theme globally whenever it changes
   useEffect(() => {

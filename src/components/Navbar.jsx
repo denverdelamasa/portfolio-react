@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ theme, setTheme }) => {
   return (
-    <div className="navbar h-24 lg:px-28 px-8">
+    <div className="navbar h-24 lg:px-28 px-8 border-b-1 border-base-200">
       {/* Mobile menu */}
       <div className="navbar-start">
         <div className="dropdown">

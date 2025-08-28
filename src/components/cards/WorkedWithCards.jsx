@@ -8,7 +8,7 @@ import mernproject from '../../assets/gallery/mern-skeleton-project.png';
 const ProjectCards = () => {
     return(
         <>
-            <div className="fade-up-scroll card bg-base-300 w-full md:w-md lg:w-lg max-w-lg shadow-xl">
+            <div className="fade-up-scroll card bg-base-300 w-full md:w-md lg:w-lg max-w-lg shadow-xl border-1 border-accent">
                 <figure className="p-2">
                     <img src={DENR_PENRO} alt="DENR PENRO" className="border-2 border-accent rounded-xl"/>
                 </figure>
@@ -27,7 +27,7 @@ const ProjectCards = () => {
                 </div>
                 </div>
             </div>
-            <div className="fade-up-scroll card bg-base-300 w-full md:w-md lg:w-xl max-w-lg shadow-xl">
+            <div className="fade-up-scroll card bg-base-300 w-full md:w-md lg:w-xl max-w-lg shadow-xl border-1 border-accent">
                 <figure className="p-2">
                     <img src={Capstone_Project} alt="Capstone" className="border-2 border-accent rounded-xl"/>
                 </figure>
@@ -46,7 +46,7 @@ const ProjectCards = () => {
                     </div>
                 </div>
             </div>
-            <div className="fade-up-scroll card bg-base-300 w-full md:w-md lg:w-xl max-w-lg shadow-xl">
+            <div className="fade-up-scroll card bg-base-300 w-full md:w-md lg:w-xl max-w-lg shadow-xl border-1 border-accent">
                 <figure className="p-2">
                     <img src={mernproject} alt="mern-stack" className="border-2 border-accent rounded-xl"/>
                 </figure>
