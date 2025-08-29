@@ -22,8 +22,8 @@ const Navbar = ({ theme, setTheme }) => {
             tabIndex={0}
             className="menu menu-md dropdown-content bg-base-100 rounded-box gap-y-3 z-1 mt-3 w-xs max-w-md p-8 shadow border-2 border-neutral"
           >
-            <li className="pb-6 border-b-1 border-neutral">
-              <Link to="/" className="btn md:hidden p-0 font-semibold leading-6 text-content bg-base-300 shadow-2xl cursor-pointer shadow-base-300 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
+            <li className="md:hidden pb-6 border-b-1 border-neutral">
+              <Link to="/" className="btn p-0 font-semibold leading-6 text-content bg-base-300 shadow-2xl cursor-pointer shadow-base-300 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
                 <span className="relative z-10 block px-6 py-3 w-full bg-base-300 border-accent border-3">
                   <div className="relative z-10 flex items-center space-x-2">
                     <span className="transition-all duration-500 group-hover:translate-x-1 text-base-content">wyane.dev</span>

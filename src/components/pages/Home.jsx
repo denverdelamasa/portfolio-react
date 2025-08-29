@@ -136,7 +136,7 @@ const Home = ({ themeName }) => {
                             What I’m currently up to: A peek at the projects and learning goals I’m focused on 
                             right now as I continue growing and leveling up my skills.
                         </p>
-                        <div className="w-full h-auto flex-col flex gap-2 px-12">
+                        <div className="w-full h-auto flex-col flex gap-2 lg:px-12">
                             <CurrentlyWorkingCards/>
                         </div>
                     </div>

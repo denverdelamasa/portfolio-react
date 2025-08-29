@@ -7,7 +7,7 @@ import Operating from '../../assets/gallery/operating.webp';
 const ProjectCards = () => {
     return(
         <>
-            <div className="fade-up-scroll py-4 flex lg:flex-row flex-col-reverse gap-4">
+            <div className="fade-up-scroll py-4 flex md:flex-row flex-col-reverse gap-4">
                 <figure className="md:block md:w-1/2 lg:w-2/5 flex items-center">
                     <img 
                         src={freecodecamp} 
@@ -25,7 +25,7 @@ const ProjectCards = () => {
                 </div>
             </div>
             <div className="divider my-4"></div>
-            <div className="fade-up-scroll py-4 flex lg:flex-row flex-col-reverse gap-4">
+            <div className="fade-up-scroll py-4 flex md:flex-row flex-col-reverse gap-4">
                     <figure className="md:w-1/2 lg:w-2/5 flex items-center">
                         <img 
                             src={kodekloud} 
@@ -43,7 +43,7 @@ const ProjectCards = () => {
                 </div>
             </div>
             <div className="divider my-4"></div>
-            <div className="fade-up-scroll py-4 flex lg:flex-row flex-col-reverse gap-4">
+            <div className="fade-up-scroll py-4 flex md:flex-row flex-col-reverse gap-4">
                 <figure className="md:w-1/2 lg:w-2/5 flex items-center">
                     <img 
                         src={Operating} 

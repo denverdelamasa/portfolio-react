@@ -46,7 +46,7 @@ const MyQuote = () => {
       </div>
       
       {/* Content */}
-      <div className={`relative z-10 p-8 text-center text-white transition-all duration-700 ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+      <div className={`relative z-10 p-8 text-center transition-all duration-700 ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
         <figure className="max-w-3xl mx-auto">
           {/* Decorative elements */}
           <div className="flex justify-center mb-6">
@@ -64,9 +64,9 @@ const MyQuote = () => {
           </svg>
           
           <blockquote className="mb-8">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-serif italic font-light leading-tight md:leading-snug">
+            <a className="text-white text-3xl lg:text-4xl font-serif italic font-light leading-tight md:leading-snug">
               "I am always doing what I cannot do yet, in order to learn how to do it."
-            </p>
+            </a>
           </blockquote>
           
           <figcaption className="flex flex-col items-center">
