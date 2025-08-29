@@ -13,8 +13,7 @@ import Contact from './components/pages/Contact';
 import Gallery from './components/pages/Gallery';
 import ConsoleApps from './components/pages/ConsoleApps';
 
-import { BrowserRouter, useLocation } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 import PaypalMeButton from './PaypalMe';
 
