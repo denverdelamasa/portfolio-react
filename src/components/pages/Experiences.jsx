@@ -9,10 +9,11 @@ import ExperiencesParallax from '../cards/ExperiencesParallax';
 import SEO from "../SEO";
 
 // TODO: Massive repolish for experience page
-// 1.) Experience and projects should be seperate,
-// 2.) instead of one static experiences page, add routing via react-router-dom
-// 3.) ANG GANDA NUNG PORTFOLIO NI BRITTANY CHIANG!!!! brittanychiang.com
-// 4.) Possible re-creation of entire portfolio
+//      1.) Experience and projects should be seperate,
+//      2.) instead of one static experiences page, add routing via react-router-dom
+//      3.) ANG GANDA NUNG PORTFOLIO NI BRITTANY CHIANG!!!! brittanychiang.com
+//      4.) Possible re-creation of entire portfolio
+// DONE 5.) Github Links on the projects 
 
 const Experience = () => {
   useEffect(() => {

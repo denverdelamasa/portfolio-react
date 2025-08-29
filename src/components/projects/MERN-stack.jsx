@@ -8,7 +8,13 @@ const PawsNClaws = () => {
       <section id="mern-stack" className="hero-content h-auto">
         <div className="flex-col lg:flex-row-reverse">
           <div className="max-w-full m-4">
-            <h1 className="text-4xl font-bold my-2">MERN stack project | Open source template</h1>
+            <span className="flex flex-row space justify-between align-middle items-center">
+              <h1 className="text-4xl font-bold my-2">MERN stack project | Open source template</h1>
+              <a href="https://github.com/denverdelamasa/mern-stack" target="_blank" rel="noopener noreferrer" className="btn btn-neutral gap-2">
+                <i class="bi bi-github"></i>
+                GitHub Repository
+              </a>
+            </span>
             <p className="mb-5 font-paragraph">
               A simple MERN (MongoDB, Express, React, Node.js) starter project with authentication built in. It comes with 
               the basic login and signup features you need to get up and running fast, while leaving plenty of room to 
@@ -30,9 +36,6 @@ const PawsNClaws = () => {
               frontend communicates with it through Axios and provides the user interface. The project also includes example 
               routes, components, and configuration files that can be extended into dashboards, CRUD applications, or other 
               custom features.
-            </p>
-            <p className="mb-5 font-paragraph">
-              <a className="text-blue-500 hover:underline" href="https://github.com/denverdelamasa/mern-stack.git" target="_blank">Curious about the code? View the complete repository on GitHub here</a>.
             </p>
           </div>
         </div>
