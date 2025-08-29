@@ -33,12 +33,8 @@ h1, h2, h3, p {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, .bold, strong  {
-  color: #FFFFFF;
-}
-
 p {
-  color: rgb(155, 155, 155);
+  color: rgb(131, 131, 131);
 }
 
 html {
