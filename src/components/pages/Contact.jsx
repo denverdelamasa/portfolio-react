@@ -7,6 +7,14 @@ import SEO from "../SEO";
 // 2.) Improve email.js form, it looks wonky
 // 3.) maybe add a little bdazzle animations like the goated portfolios from this: https://victoreke.com/blog/portfolio-ideas-an-open-source-repository-for-inspiration
 // 4.) bro tbh these people are goated af, I just graduated bru wdym there are projects out there that look like a website from an alien mothership?!?!? xDD
+// 5.) Basically revamp this entire contact page into a commission page
+//          - we would have a section at the bottom of the homepage, redirecting to the contact section it'll have Link to="/commissions#contact" <- Like that
+//          - So the /commissions page will have: 
+//               - A section of my Art commission with pricings (Might make another art to demonstrate...)
+//               - A section were I display my socials for trouble shooting PCs, (Like a tech support but freelance ig???) 
+//               - A section were I display that I can do on page, static websites for product promotions and such... (I don't have time to make an entire system for other people)
+//               - As for the pricing, it's negotiable... ig we ca just talk about it after the project/troubleshoot... 
+
 
 const Contact = () => {
   return (
