@@ -2,6 +2,12 @@ import React from 'react';
 import EmailJS from '../../utils/EmailJS';
 import SEO from "../SEO";
 
+// TODO: rehaul
+// 1.) Maybe add something like a hyperlink through my instagrampage?
+// 2.) Improve email.js form, it looks wonky
+// 3.) maybe add a little bdazzle animations like the goated portfolios from this: https://victoreke.com/blog/portfolio-ideas-an-open-source-repository-for-inspiration
+// 4.) bro tbh these people are goated af, I just graduated bru wdym there are projects out there that look like a website from an alien mothership?!?!? xDD
+
 const Contact = () => {
   return (
     <>
