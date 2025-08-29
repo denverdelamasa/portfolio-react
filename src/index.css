@@ -45,28 +45,6 @@ html {
 
 }
 
-.bg-noise {
-  position: relative;
-  background-color: hsl(var(--b1));
-}
-
-.bg-noise::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none; /* So clicks pass through */
-  background-image: url("/src/assets/noise-bg.webp");
-  background-repeat: repeat;
-  background-size: 256px 256px;
-  opacity: 0.03; /* Adjust noise intensity */
-  mix-blend-mode: exclusion; /* Works with transparent noise webp | yeah I changed it to webp */
-  z-index: -2;
-}
-
-
-
-
-
 
 
 

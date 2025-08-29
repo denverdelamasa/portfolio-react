@@ -69,7 +69,7 @@ function App() {
 
   return (
     <>
-    <div className="min-h-screen flex flex-col bg-noise">
+    <div className="min-h-screen flex flex-col">
       <Navbar theme={theme} setTheme={setTheme} />
       <div className="font-sans lg:px-24 px-2 py-2 flex flex-col m-auto overflow-x-hidden">
         <Routes>
