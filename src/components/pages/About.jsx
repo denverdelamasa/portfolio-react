@@ -9,6 +9,13 @@ import sampleart from '../../assets/gallery/art/9.webp';
 import AboutProgramList from '../cards/AboutProgramList';
 import SEO from "../SEO";
 
+// I actually Based this about page to Viktor Eke's so... I kinda wanna 
+// change it now since I now have my own vision of this portfolio..
+// TODO: About Overhaul - deviate from reference
+// 1.) Add other bdazzles (literally just seach online for unique CSS's)
+// 2.) just... be unique... 
+// 3.) I haven't thought about no. 3 yet...
+
 const About = ({ setActivePage }) => {
   return (
     <>
