@@ -3,6 +3,7 @@ import React from "react";
 import freecodecamp from '../../assets/gallery/freecodecamp-first-activity.webp';
 import kodekloud from '../../assets/gallery/KodeKloud-Docker.webp';
 import Operating from '../../assets/gallery/operating.webp';
+import Excalidraw from '../../assets/gallery/excalidraw.png';
 
 const ProjectCards = () => {
     return(
@@ -57,6 +58,25 @@ const ProjectCards = () => {
                     <p className="text-sm p-0">
                         Currently working as a volunteer in the technical team of Bethany United Methodist Church,
                         where I help with the technical aspects of the church's services, including sound and video production.
+                    </p>
+                </div>
+            </div>
+            <div className="divider my-4"></div>
+            <div className="fade-up-scroll py-4 flex md:flex-row flex-col-reverse gap-4">
+                <figure className="md:w-1/2 lg:w-2/5 flex items-center">
+                    <img 
+                        src={Excalidraw} 
+                        alt="" 
+                        className="border-2 border-accent my-auto w-full h-auto object-cover max-h-[200px]"
+                    />
+                </figure>
+                <div className="flex flex-col gap-2 my-auto md:w-1/2 lg:w-3/5">
+                    <h2 className="card-title text-2xl">Portfolio v2</h2>
+                    <p className="text-sm mb-2 p-0">Under construction</p>  
+                    <p className="text-sm p-0">
+                        I've decided that since I'm gonna be working with alot of open-source 
+                        projects along road, might aswell build a scalable portfolio instead of a static website. 
+                        currently designing in Excalidraw!
                     </p>
                 </div>
             </div>
