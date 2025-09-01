@@ -1,7 +1,7 @@
 # portfolio-react
 My official portfolio.
 
-CURRENTLY WORKING FOR A NEW (scalable) ONE!
+CURRENTLY WORKING ON A NEW (scalable) ONE!
 
 [denverdelamasa.vercel.app][Link]
 
