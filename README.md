@@ -1,8 +1,6 @@
 # portfolio-react
-My official portfolio.
+My old portfolio.
 
-CURRENTLY WORKING ON A NEW (scalable) ONE!
+[v1-denverdelamasa.vercel.app][Link]
 
-[denverdelamasa.vercel.app][Link]
-
-[Link]: https://denverdelamasa.vercel.app
+[Link]: https://v1-denverdelamasa.vercel.app
